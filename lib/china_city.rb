@@ -40,6 +40,7 @@ module ChinaCity
     end
 
     def province(code)
+      p code
       match(code)[1].ljust(6, '0')
     end
 
